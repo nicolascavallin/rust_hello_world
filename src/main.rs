@@ -1,9 +1,25 @@
+use rand::random;
+
 fn main() {
     println!("Hello, world!");
-    println!("{}", get_number());
+    println!("Your random unsigned number is: {}", get_unsigned_number());
+    println!("Your random signed number is: {}", get_signed_number());
+    println!("Your string is: {}", get_string());
+    println!("Your random boolean is: {}", get_boolean());
 }
 
+fn get_unsigned_number() -> u16 {
+    return random::<u16>();
+}
 
-const fn get_number() -> u32 {
-    return 2;
+fn get_signed_number() -> i16 {
+    return random::<i16>();
+}
+
+fn get_string() -> String {
+    return "soy un string".to_string();
+}
+
+fn get_boolean() -> bool {
+    return random::<bool>();
 }
