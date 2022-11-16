@@ -51,5 +51,31 @@ pub fn main() {
     println!("Element: {}", element);
   } 
 
+  // IF - LET
+
+  let mut edad: Option<i32> = Some(20);
+
+  if random::<bool>() {
+    edad = None;
+  }
+
+  // Nos ahorra toooodo el match
+  if let Some(edad) = edad {
+    println!("Edad: {}", edad);
+  }
+
+  // WHILE - LET
+
+  let mut mensajes = Some(20);
+
+  while let Some(value) = mensajes {
+    println!("Mensajes pendientes: {}", value);
+    if value < 1 {
+      mensajes = None;
+    } else {
+      mensajes = Some(value - 1);
+    }
+  }
+
 
 }
