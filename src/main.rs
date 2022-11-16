@@ -5,7 +5,8 @@
 // mod generics;
 // mod iterators;
 // mod closures;
-mod flow_control;
+// mod flow_control;
+mod collections;
 
 fn main() {
     // println!("Hello, world!");
@@ -19,7 +20,8 @@ fn main() {
     // generics::main();
     // iterators::iterators();
     // closures::main();
-    flow_control::main();
+    // flow_control::main();
+    collections::main();
 }
 
 // fn get_unsigned_number() -> u16 {
