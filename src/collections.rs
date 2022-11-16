@@ -72,6 +72,5 @@ pub fn main() {
   // HASHMAPS
 
   // key-value
-  // Hay que importarlos de la lib standard
 
 }
