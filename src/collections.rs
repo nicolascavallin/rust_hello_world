@@ -60,6 +60,16 @@ pub fn main() {
     println!("ID: {}", id);
   }
 
+  // union: devuelve un nuevo hashset con los elementos de ambos
+  // intersection: devuelve un nuevo hashset con los elementos que se repiten en ambos
+  // difference: devuelve un nuevo hashset con los elementos que no se repiten en ambos
+  // symetric_difference: devuelve un nuevo hashset con los elementos que no se repiten en ambos
+
   // let ids_2: HashSet<u32> = vec![1, 2, 3, 4, 5];
+
+  // HASHMAPS
+
+  // key-value
+  // Hay que importarlos de la lib standard
 
 }
