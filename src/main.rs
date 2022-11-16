@@ -1,8 +1,9 @@
-use rand::random;
+// use rand::random;
 
-mod enums;
-mod structs;
-mod generics;
+// mod enums;
+// mod structs;
+// mod generics;
+mod iterators;
 
 fn main() {
     // println!("Hello, world!");
@@ -13,7 +14,8 @@ fn main() {
     // structs::play_structs();
     // println!("");
     // enums::play_enums();
-    generics::main();
+    // generics::main();
+    iterators::iterators();
 }
 
 // fn get_unsigned_number() -> u16 {
