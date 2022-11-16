@@ -4,7 +4,8 @@
 // mod structs;
 // mod generics;
 // mod iterators;
-mod closures;
+// mod closures;
+mod flow_control;
 
 fn main() {
     // println!("Hello, world!");
@@ -17,7 +18,8 @@ fn main() {
     // enums::play_enums();
     // generics::main();
     // iterators::iterators();
-    closures::main();
+    // closures::main();
+    flow_control::main();
 }
 
 // fn get_unsigned_number() -> u16 {
