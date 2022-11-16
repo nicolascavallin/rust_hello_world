@@ -3,7 +3,8 @@
 // mod enums;
 // mod structs;
 // mod generics;
-mod iterators;
+// mod iterators;
+mod closures;
 
 fn main() {
     // println!("Hello, world!");
@@ -15,7 +16,8 @@ fn main() {
     // println!("");
     // enums::play_enums();
     // generics::main();
-    iterators::iterators();
+    // iterators::iterators();
+    closures::main();
 }
 
 // fn get_unsigned_number() -> u16 {
