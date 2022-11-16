@@ -1,3 +1,5 @@
+use std::collections::HashSet;
+
 pub fn main() {
   println!("Hello, Collections!");
 
@@ -43,6 +45,21 @@ pub fn main() {
   let string_1 = String::from("Hola"); // Tiene su espacio en memoria y puede crecer
   let string_2 = "Chau"; // Está hardcodeado en el binario, no puede cambiar.
 
+  // HASHSET
 
+  // Es un wrapper de Hashmap, no permite duplicados (simil SET JS)
+
+  let mut ids_1 = HashSet::new();
+
+  ids_1.insert(100);
+  ids_1.insert(150);
+  ids_1.insert(200);
+  ids_1.insert(200);
+
+  for id in ids_1.iter() {
+    println!("ID: {}", id);
+  }
+
+  // let ids_2: HashSet<u32> = vec![1, 2, 3, 4, 5];
 
 }
