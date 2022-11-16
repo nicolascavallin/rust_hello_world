@@ -24,5 +24,32 @@ pub fn main() {
 
   println!("New number: {}", new_number);
 
+  // LOOP
+
+  let mut counter = 0;
+
+  loop {
+    println!("Counter (loop): {}", counter);
+    counter += 1;
+    if counter == 10 {
+      break;
+    }
+  }
+  
+  // WHILE
+
+  while counter > 0 {
+    println!("Counter (while): {}", counter);
+    counter -= 1;
+  }
+
+  // FOR
+
+  let lista = [1,2,3,4,5];
+
+  for element in lista.iter() {
+    println!("Element: {}", element);
+  } 
+
 
 }
