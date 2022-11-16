@@ -45,6 +45,8 @@ pub fn main() {
   let string_1 = String::from("Hola"); // Tiene su espacio en memoria y puede crecer
   let string_2 = "Chau"; // Está hardcodeado en el binario, no puede cambiar.
 
+  // --------------------------------------------------------------------------------
+
   // HASHSET
 
   // Es un wrapper de Hashmap, no permite duplicados (simil SET JS)
